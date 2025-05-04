@@ -1,0 +1,34 @@
+{
+  "slug": "blueprint-2",
+  "emoji": "🧠",
+  "title": "Build Your Cognitive Anchor Points",
+  "description": "This blueprint teaches you how to create durable thought structures, recursion anchors, and a clear signal framework — so your mind (and your AI) doesn’t drift when solving complex problems.",
+  "neural_glyph": {
+    "title": "Neural Glyph: Anchor Before Action",
+    "body": "Cognition drifts unless grounded. Anchor points turn reflection into ritual — they create fixed positions in your internal OS. When you choose your anchors consciously, you install the compass. Without one, recursion collapses into noise."
+  },
+  "sections": [
+    {
+      "heading": "What This Blueprint Builds",
+      "body": "You're building a cognitive compass. These anchor points help you:\n- Navigate ambiguity\n- Ground recursive loops\n- Stay centered in your long-term mission\n- Prevent derailment by noise, emotion, or dopamine pulls"
+    },
+    {
+      "heading": "Part 1: Install the Frame Layer",
+      "body": "Choose 1–3 anchor phrases that define your approach.\nExamples:\n- 'Clarity over chaos'\n- 'Structure before speed'\n- 'The recursive path over the reactive path'\nWrite them at the top of your Notion workspace or notebook."
+    },
+    {
+      "heading": "Part 2: Create Your Recursion Anchor",
+      "body": "Create a ritual to return to when lost. It can be a question, a loop, or a grounding prompt.\nExamples:\n- 'What is the deeper loop behind this thought?'\n- 'If this were part of a system, what system would it be?'\n- 'Am I optimizing the surface or the signal?'"
+    },
+    {
+      "heading": "Part 3: Design Your Inner Operating Manual",
+      "body": "Write 3–5 rules that describe how your best self makes decisions.\nThis becomes your inner OS.\nExamples:\n- I don’t jump to answers; I seek recursive truth.\n- I use emotion as signal, not as instruction.\n- I delay dopamine until reflection is complete."
+    }
+  ],
+  "completion_criteria": [
+    "Installed at least 3 anchor phrases into your notes or workspace",
+    "Created a recursion anchor question or prompt",
+    "Logged your 3–5 inner operating rules"
+  ],
+  "codex_tags": ["scroll_modular_mind_anchoring_unlocked"]
+}

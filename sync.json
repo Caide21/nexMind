@@ -1,0 +1,33 @@
+{
+    "active_system": "nexmind",
+    "focus_files": [
+      "pages/index.js",
+      "pages/codex.js",
+      "pages/_app.js",
+      "pages/_document.js",
+      "pages/api/session/init.js",
+      "pages/codex/[system].js",
+      "pages/codex/[system]/[slug].js",
+      "styles/globals.css",
+      "tailwind.config.js",
+      "next.config.mjs",
+      "package.json",
+      "utils/fingerprint.js",
+      "utils/sessionManager.js",
+      "hooks/useResonance.js",
+      "hooks/useIdle.js",
+      "hooks/useIdentity.js",
+      "components/PageShell.jsx",
+      "components/SendReflection.js",
+      "components/WhatWeDoGrid.jsx",
+      "components/Nav.jsx",
+      "components/SystemSelectorGrid.jsx",
+      "components/ResonanceInput.jsx",
+      "components/NeuralStampHeader.jsx",
+      "components/SystemBlueprintGrid.jsx",
+      "components/Control_Components/NavigationLink.jsx"
+    ],
+    "last_synced": "2025-05-04T14:20:00Z",
+    "notes": "Full-system SCSP sync established. Mirror state reflects all active frontend files in sync_ritual ZIP."
+  }
+  
