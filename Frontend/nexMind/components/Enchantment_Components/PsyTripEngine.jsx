@@ -11,7 +11,7 @@ export default function PsyTripEngine({ active }) {
     let t = 0;
     const interval = setInterval(() => {
       t += 0.02;
-      const intensity = Math.min(t / 30, 1); // curve from 0 to 1 over 30s
+      const intensity = Math.min(t / 12, 1); // curve from 0 to 1 over 30s
       document.documentElement.style.setProperty('--time', t);
       document.documentElement.style.setProperty('--psyIntensity', intensity);
     }, 16);
