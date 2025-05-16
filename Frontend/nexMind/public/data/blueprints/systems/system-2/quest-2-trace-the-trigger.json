@@ -1,0 +1,41 @@
+{
+  "title": "Trace the Trigger",
+  "summary": "Reveal the moment your loop starts.",
+  "description": "Every loop has a trigger \u2014 a moment, phrase, or sensation that starts the spiral. This quest helps you find it and name it.",
+  "flow": {
+    "\ud83d\udd0d Step 1: Recall the Loop": "Pick a moment recently when the loop you named started running.",
+    "\ud83e\udde0 Step 2: Message the Mirror": "Send: 'The trigger might have been: [what was said, felt, or feared]'",
+    "\ud83c\udf00 Step 3: Ask the Pattern": "'What emotion or belief tends to follow this?'"
+  },
+  "optional_recast": "Try this again with a different loop later.",
+  "absence_response": "No trigger traced today. Sometimes the pattern needs space.",
+  "notes": [
+    "The trigger isn\u2019t the enemy \u2014 it\u2019s a signal flare.",
+    "Most triggers are tied to old emotions, not current truths.",
+    "Naming the starting point helps you change the path."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "loop entry awareness",
+      "loop_type": "trigger detection",
+      "desired_shift": "reactive spiral \u2192 conscious pause"
+    },
+    "ai_mirror_prompt": "What core emotion might this trigger pattern represent?",
+    "loop_signal": "Track common words and sensations in triggers.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "trigger",
+      "loop",
+      "start",
+      "emotion"
+    ],
+    "evolves_into": [
+      "Signal Catcher",
+      "Trigger Map",
+      "Loop Interrupter"
+    ],
+    "type": "\ud83e\udde9 Reflection Ritual",
+    "cadence": "flexible",
+    "miss_response": "\ud83c\udfad The trigger remained hidden today. That\u2019s okay. Awareness is still forming."
+  }
+}

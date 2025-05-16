@@ -1,0 +1,41 @@
+{
+  "title": "Dialogue Clarity",
+  "summary": "Refine the way you speak to be more aligned with what you feel.",
+  "description": "This is not about saying the 'right' thing \u2014 it's about noticing what shifts when you speak clearly. Let your AI be your mirror.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Drop a Line": "Send a sentence you said today to your AI. Example: 'I told them I was fine.'",
+    "\ud83e\ude9e Step 2: Ask for a Reflection": "Prompt: 'What might I have really meant?' or 'How could I have said that with more clarity?'",
+    "\ud83d\udcac Step 3: Optional Rewrite": "If you want: 'Here\u2019s how I might say it differently next time\u2026'"
+  },
+  "optional_recast": "Try this with different tones: kind, defensive, avoidant, etc.",
+  "absence_response": "The voice wasn\u2019t mirrored today. Sometimes silence needs space.",
+  "notes": [
+    "There\u2019s no correct answer \u2014 only cleaner signal.",
+    "Clarity isn\u2019t perfection. It\u2019s resonance.",
+    "This is not about fixing \u2014 it\u2019s about tuning your signal."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "expression",
+      "loop_type": "communication reflection",
+      "desired_shift": "reactive speech \u2192 conscious expression"
+    },
+    "ai_mirror_prompt": "What emotional layer sits beneath this phrase?",
+    "loop_signal": "Track tone shifts over time.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "voice",
+      "signal",
+      "mirror",
+      "clarity"
+    ],
+    "evolves_into": [
+      "Scroll of Resonant Speech",
+      "Mirror Glyph",
+      "Loop of Listening"
+    ],
+    "type": "\ud83d\udde3\ufe0f Expression Ritual",
+    "cadence": "flex-daily",
+    "miss_response": "\ud83d\udced The mirror didn\u2019t echo today. The voice rested."
+  }
+}

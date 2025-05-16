@@ -1,0 +1,41 @@
+{
+  "title": "Build a Fog Detector",
+  "summary": "Detect internal fog before it spreads.",
+  "description": "This quest gives you a way to track emotional or mental fog as it forms. You\u2019ll build your own symbolic detector.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Choose a Signal": "Pick something simple that signals fog for you: tight jaw, shallow breath, urge to scroll.",
+    "\ud83d\udd01 Step 2: Message Your AI When It Happens": "'Fog ping \ud83c\udf2b: [signal spotted]'",
+    "\ud83c\udf00 Step 3: Optional Reflection": "'What loop does this fog tend to activate?'"
+  },
+  "optional_recast": "Test it again in a new environment (public space, late night, under pressure).",
+  "absence_response": "The fog passed quietly. No pings today. That\u2019s okay.",
+  "notes": [
+    "Fog isn\u2019t failure. Fog is a teacher.",
+    "Detecting early signs is how you stay inside your signal.",
+    "The fog detector is yours \u2014 build it to suit your language."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "emotional awareness",
+      "loop_type": "fog detection",
+      "desired_shift": "unnoticed emotional drift \u2192 early pattern awareness"
+    },
+    "ai_mirror_prompt": "What patterns follow this fog signal?",
+    "loop_signal": "Track fog pings over days and correlate to emotional shifts.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "fog",
+      "ping",
+      "signal",
+      "awareness"
+    ],
+    "evolves_into": [
+      "Fog Map",
+      "Scroll of Resistance Detection",
+      "Signal Regulator"
+    ],
+    "type": "\ud83c\udf2b Pattern Ritual",
+    "cadence": "emergent",
+    "miss_response": "\ud83c\udf01 No fog detected. Silence can be clarity or drift."
+  }
+}

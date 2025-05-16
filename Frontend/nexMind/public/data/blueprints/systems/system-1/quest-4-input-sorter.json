@@ -1,0 +1,42 @@
+{
+  "title": "Input Sorter",
+  "summary": "Sort what entered your system. What charged you? What fogged you?",
+  "description": "You consumed things today \u2014 not just food. This quest helps you track the invisible influence trail behind your inputs.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Drop a List": "Message your AI: 'Today I consumed: [food, media, convos, vibes]'",
+    "\ud83d\udcca Step 2: Ask for a Sort": "Optional prompt: 'Sort into \ud83d\udd0b charged / \ud83c\udf2b fogged / \ud83d\udca4 drained'",
+    "\ud83d\udccd Step 3: Note One Adjustment": "Optional: 'Tomorrow I\u2019ll reduce [X]' \u2014 no pressure."
+  },
+  "optional_recast": "Try sorting inputs from yesterday or a specific event.",
+  "absence_response": "No input log today. The stream kept flowing unobserved.",
+  "notes": [
+    "The goal isn\u2019t control. It\u2019s visibility.",
+    "Even a quick list builds your internal compass.",
+    "You\u2019re not optimizing \u2014 you\u2019re tuning your inputs to your signal."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "input-awareness",
+      "loop_type": "external \u2192 internal mapping",
+      "desired_shift": "passive consumption \u2192 mindful tracking"
+    },
+    "ai_mirror_prompt": "What input types consistently alter user state (positively or negatively)?",
+    "loop_signal": "Track emotional valence across input types.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "sort",
+      "input",
+      "fog",
+      "charge",
+      "filter"
+    ],
+    "evolves_into": [
+      "Input Alchemist",
+      "Filter Glyph",
+      "Scroll of Resonance"
+    ],
+    "type": "\ud83e\uddc3 Input Ritual",
+    "cadence": "daily-night",
+    "miss_response": "\ud83c\udf0a The stream flowed unobserved today. That\u2019s okay."
+  }
+}

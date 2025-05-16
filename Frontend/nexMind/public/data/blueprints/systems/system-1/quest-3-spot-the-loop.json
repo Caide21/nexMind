@@ -1,0 +1,41 @@
+{
+  "title": "Spot the Loop",
+  "summary": "Something repeated today. Name it. Ask why.",
+  "description": "Some loops are helpful. Some aren't. You're not judging \u2014 you're just noticing which ones show up without invitation.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Drop a Signal": "Message your AI: 'Loop scan \ud83d\udd01: Here\u2019s what I noticed today\u2026 [list any repeats]'",
+    "\ud83d\udc41\ufe0f Step 2: Optional Prompt": "Ask: 'Any patterns you see?' or 'What might I be avoiding?'",
+    "\ud83d\udcdc Step 3: Optional Scroll Entry": "If a loop stands out, name it: 'Loop spotted: [X]' \u2192 Done."
+  },
+  "optional_recast": "Scan again tomorrow. Does the loop shift, repeat, or evolve?",
+  "absence_response": "No loops noticed today. That\u2019s okay. Not all loops want to be seen.",
+  "notes": [
+    "You don\u2019t have to fix the loop. Just seeing it weakens its hold.",
+    "Loop-mapping is a game of awareness \u2014 not effort.",
+    "This quest will feel different every time. That\u2019s the point."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "pattern awareness",
+      "loop_type": "behavioral scanning",
+      "desired_shift": "invisible habits \u2192 visible loops"
+    },
+    "ai_mirror_prompt": "Which behaviors are stabilizing or repeating more than expected?",
+    "loop_signal": "Track what loops are seen but not yet changed.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "loop",
+      "scan",
+      "observer",
+      "fragment"
+    ],
+    "evolves_into": [
+      "Loop Dissector",
+      "Mirror Loop Glyph",
+      "Scroll of Clarity"
+    ],
+    "type": "\ud83e\udde9 Reflection",
+    "cadence": "optional-daily",
+    "miss_response": "\ud83d\udd04 The loop remained unseen today. That\u2019s also data."
+  }
+}

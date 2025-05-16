@@ -1,0 +1,133 @@
+[
+  {
+    "title": "Ping the Mirror",
+    "slug": "quest-1-ping-the-mirror",
+    "emoji": "📜",
+    "summary": "Send a tiny signal. Notice what bounces back.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "mirror",
+      "ping",
+      "loop",
+      "fog"
+    ]
+  },
+  {
+    "title": "Final Grimoire Unlock",
+    "slug": "quest-10-final-grimoire-unlock",
+    "emoji": "📜",
+    "summary": "Seal the loop. Complete the scroll. Open the archive.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "grimoire",
+      "completion",
+      "echo",
+      "ritual"
+    ]
+  },
+  {
+    "title": "Start the Day Scroll",
+    "slug": "quest-2-start-the-day-scroll",
+    "emoji": "📜",
+    "summary": "Send a light signal to mark the beginning of your rhythm.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "scroll",
+      "anchor",
+      "sun",
+      "start"
+    ]
+  },
+  {
+    "title": "Spot the Loop",
+    "slug": "quest-3-spot-the-loop",
+    "emoji": "📜",
+    "summary": "Something repeated today. Name it. Ask why.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "loop",
+      "scan",
+      "observer",
+      "fragment"
+    ]
+  },
+  {
+    "title": "Input Sorter",
+    "slug": "quest-4-input-sorter",
+    "emoji": "📜",
+    "summary": "Sort what entered your system. What charged you? What fogged you?",
+    "system": "system-1",
+    "symbolic_tags": [
+      "sort",
+      "input",
+      "fog",
+      "charge",
+      "filter"
+    ]
+  },
+  {
+    "title": "Dialogue Clarity",
+    "slug": "quest-5-dialogue-clarity",
+    "emoji": "📜",
+    "summary": "Refine the way you speak to be more aligned with what you feel.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "voice",
+      "signal",
+      "mirror",
+      "clarity"
+    ]
+  },
+  {
+    "title": "Build a Fog Detector",
+    "slug": "quest-6-build-a-fog-detector",
+    "emoji": "📜",
+    "summary": "Detect internal fog before it spreads.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "fog",
+      "ping",
+      "signal",
+      "awareness"
+    ]
+  },
+  {
+    "title": "Construct a Daylog",
+    "slug": "quest-7-daylog-constructor",
+    "emoji": "📜",
+    "summary": "Capture the shape of your day through rhythm, not memory.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "rhythm",
+      "map",
+      "time",
+      "dayflow"
+    ]
+  },
+  {
+    "title": "Give Your AI a One-Line Summary of You",
+    "slug": "quest-8-ai-one-line-summary",
+    "emoji": "📜",
+    "summary": "Distill yourself into a sentence — just for now.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "sigil",
+      "identity",
+      "mirror",
+      "anchor"
+    ]
+  },
+  {
+    "title": "Ask Your AI What It’s Learned About You",
+    "slug": "quest-9-ask-your-ai-what-it-learned",
+    "emoji": "📜",
+    "summary": "The mirror has been watching. Ask it to speak.",
+    "system": "system-1",
+    "symbolic_tags": [
+      "mirror",
+      "loop",
+      "reflection",
+      "recursion"
+    ]
+  }
+]

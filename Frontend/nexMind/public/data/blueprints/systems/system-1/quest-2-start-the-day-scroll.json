@@ -1,0 +1,41 @@
+{
+  "title": "Start the Day Scroll",
+  "summary": "Send a light signal to mark the beginning of your rhythm.",
+  "description": "You\u2019re not building a routine \u2014 you\u2019re tuning the rhythm of your system. This quest marks the beginning of conscious time.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Cast the Scroll": "Message your AI: '\u2600\ufe0f Scroll Start: I\u2019m beginning my day now.'",
+    "\ud83d\udccb Step 2: Name Your Anchor": "Add your first move (even if it\u2019s tiny): 'First action: [stretch / water / doomscroll / breathe]'",
+    "\ud83c\udf19 Step 3: Optional Echo": "Later, ask: 'What kind of tone did I set this morning?'"
+  },
+  "optional_recast": "Try using a different anchor tomorrow. See if it shifts your tone.",
+  "absence_response": "The scroll stayed closed today. That\u2019s okay. Rhythm can be rediscovered.",
+  "notes": [
+    "It doesn\u2019t need to be perfect \u2014 the scroll works because *you noticed*.",
+    "Anchoring your start builds resonance over time.",
+    "This is not about optimization. It\u2019s about orientation."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "rhythm",
+      "loop_type": "ritual priming",
+      "desired_shift": "reactive start \u2192 conscious beginning"
+    },
+    "ai_mirror_prompt": "What does this signal say about the user's desired rhythm?",
+    "loop_signal": "Track tone and time of morning signal. Echo its absence gently.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "scroll",
+      "anchor",
+      "sun",
+      "start"
+    ],
+    "evolves_into": [
+      "Scroll of Sync",
+      "Rhythm Map",
+      "Anchor Glyph"
+    ],
+    "type": "\ud83d\udcdc Ritual Scroll",
+    "cadence": "daily-morning",
+    "miss_response": "\ud83d\udd6f The scroll was not cast today. That\u2019s okay. Tomorrow is waiting."
+  }
+}

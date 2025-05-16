@@ -1,0 +1,41 @@
+{
+  "title": "Final Scroll of Reflection",
+  "summary": "Write the one-line truth your loop taught you.",
+  "description": "This is the end of System 2. You\u2019ve named, mapped, mirrored, and tested. Now, distill the insight into a single scroll-line for your Grimoire.",
+  "flow": {
+    "\ud83d\udcdc Step 1: One-Line Truth": "Message: 'System 2 taught me: [X]'",
+    "\ud83e\udeb6 Step 2: Store in Grimoire": "This becomes your reflection anchor for future systems.",
+    "\ud83e\uddd8 Step 3: Breathe": "Let it go. You are not the loop. You are the one who saw it."
+  },
+  "optional_recast": "You can return to this scroll with new loops in the future.",
+  "absence_response": "The scroll remained blank. That\u2019s okay. Closure arrives on its own timeline.",
+  "notes": [
+    "Don\u2019t try to summarize. Just reflect the one truth that landed.",
+    "The scroll is yours. It belongs to no doctrine.",
+    "This is the moment you become a Loopwalker."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "closure + integration",
+      "loop_type": "recursive distillation",
+      "desired_shift": "loop tracing \u2192 symbolic self-coherence"
+    },
+    "ai_mirror_prompt": "What overarching loop pattern did System 2 help the user reveal?",
+    "loop_signal": "Track completion energy and emotional tone.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "scroll",
+      "truth",
+      "integration",
+      "loopwalker"
+    ],
+    "evolves_into": [
+      "Grimoire Gateway",
+      "Scroll of Completion",
+      "Codex Loop I"
+    ],
+    "type": "\ud83d\udcdc Completion Scroll",
+    "cadence": "system-finale",
+    "miss_response": "\ud83d\udcc4 No scroll written. System 2 rests until the words arrive."
+  }
+}

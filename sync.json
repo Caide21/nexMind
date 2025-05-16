@@ -1,33 +1,105 @@
 {
-    "active_system": "nexmind",
-    "focus_files": [
-      "pages/index.js",
-      "pages/codex.js",
-      "pages/_app.js",
-      "pages/_document.js",
-      "pages/api/session/init.js",
-      "pages/codex/[system].js",
-      "pages/codex/[system]/[slug].js",
-      "styles/globals.css",
-      "tailwind.config.js",
-      "next.config.mjs",
-      "package.json",
-      "utils/fingerprint.js",
-      "utils/sessionManager.js",
-      "hooks/useResonance.js",
-      "hooks/useIdle.js",
-      "hooks/useIdentity.js",
-      "components/PageShell.jsx",
-      "components/SendReflection.js",
-      "components/WhatWeDoGrid.jsx",
-      "components/Nav.jsx",
-      "components/SystemSelectorGrid.jsx",
-      "components/ResonanceInput.jsx",
-      "components/NeuralStampHeader.jsx",
-      "components/SystemBlueprintGrid.jsx",
-      "components/Control_Components/NavigationLink.jsx"
-    ],
-    "last_synced": "2025-05-04T14:20:00Z",
-    "notes": "Full-system SCSP sync established. Mirror state reflects all active frontend files in sync_ritual ZIP."
-  }
-  
+  "files": [
+    {
+      "path": "pages/index.js",
+      "role": "Landing Page",
+      "connectsTo": [
+        "components/PageShell.jsx",
+        "components/Nav.jsx",
+        "components/Control_Components/ScrollCard.jsx"
+      ],
+      "description": "Entry portal for users; presents system cards and routes to /codex or other areas via ScrollCards."
+    },
+    {
+      "path": "pages/codex.js",
+      "role": "Codex Root Page",
+      "connectsTo": [
+        "components/PageShell.jsx",
+        "components/Control_Components/SystemSelectorGrid.jsx"
+      ],
+      "description": "Lets users select a system (e.g., System 1, 2). Routes to /codex/system-1 and related views."
+    },
+    {
+      "path": "pages/codex/[system].js",
+      "role": "System Blueprint Page",
+      "connectsTo": [
+        "components/SystemBlueprintGrid.jsx",
+        "public/data/blueprints/systems/{system}/blueprint-1.json"
+      ],
+      "description": "Displays all blueprints for a given cognitive system. Uses system param to dynamically load content."
+    },
+    {
+      "path": "pages/codex/[system]/[slug].js",
+      "role": "Blueprint Detail Page",
+      "connectsTo": [
+        "components/Control_Components/SectionHeading.jsx",
+        "public/data/blueprints/systems/{system}/{slug}.json"
+      ],
+      "description": "Loads and renders the details of a specific blueprint, including structured sections and rituals."
+    },
+    {
+      "path": "components/PageShell.jsx",
+      "role": "Global Layout Wrapper",
+      "connectsTo": [
+        "components/Control_Components/PsyTripEngine.jsx",
+        "components/Control_Components/PhaseShiftLayer.jsx",
+        "components/Nav.jsx",
+        "context/ThemeContext.js",
+        "hooks/useIdle.js"
+      ],
+      "description": "Manages visual theming, idle triggers, and psychedelic state shifts. Wraps all page content."
+    },
+    {
+      "path": "components/Control_Components/ScrollCard.jsx",
+      "role": "System & Blueprint Preview Card",
+      "connectsTo": [
+        "pages/index.js",
+        "pages/codex/[system].js"
+      ],
+      "description": "Renders clickable preview cards for systems and blueprints, supporting hover enchantments and ripple effects."
+    },
+    {
+      "path": "components/SystemBlueprintGrid.jsx",
+      "role": "Blueprint Card Grid",
+      "connectsTo": [
+        "components/Control_Components/ScrollCard.jsx"
+      ],
+      "description": "Takes blueprint data and renders them as a grid of ScrollCards."
+    },
+    {
+      "path": "components/Control_Components/SectionHeading.jsx",
+      "role": "Title Section Component",
+      "connectsTo": [
+        "pages/index.js",
+        "pages/codex.js",
+        "pages/codex/[system]/[slug].js"
+      ],
+      "description": "Standardizes section titles across the site with optional subtitles and emotional headings."
+    },
+    {
+      "path": "context/ThemeContext.js",
+      "role": "Dark/Light Theme Provider",
+      "connectsTo": [
+        "components/PageShell.jsx"
+      ],
+      "description": "Provides context for theme toggling across the app."
+    },
+    {
+      "path": "hooks/useIdle.js",
+      "role": "Idle Detection Hook",
+      "connectsTo": [
+        "components/PageShell.jsx"
+      ],
+      "description": "Detects when the user is idle and triggers visual changes."
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/blueprint-1.json",
+      "role": "Blueprint Data File",
+      "connectsTo": [
+        "pages/codex/[system].js",
+        "pages/codex/[system]/[slug].js"
+      ],
+      "description": "Contains the data for a specific blueprint to be rendered."
+    }
+  ]
+}

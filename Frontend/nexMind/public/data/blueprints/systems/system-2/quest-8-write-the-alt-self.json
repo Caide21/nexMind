@@ -1,0 +1,41 @@
+{
+  "title": "Write the Alt-Self",
+  "summary": "Describe the version of you who doesn\u2019t run this loop.",
+  "description": "If this loop didn\u2019t exist \u2014 what would you feel like? What would you do differently? Write the version of you on the other side of it.",
+  "flow": {
+    "\ud83d\udcdd Step 1: Drop the Frame": "Message: 'Without this loop, I would feel [emotion], think [thought], and do [action]'",
+    "\ud83d\udc64 Step 2: Name the Version": "Optional: give them a name, symbol, or codeword",
+    "\ud83e\ude9e Step 3: Ask the Mirror": "'What\u2019s one trait of this Alt-Self I can channel today?'"
+  },
+  "optional_recast": "Revisit the Alt-Self monthly. Update their energy.",
+  "absence_response": "The alternate version stayed in the shadow today. No pressure to meet them yet.",
+  "notes": [
+    "This isn\u2019t fiction. It\u2019s foresight.",
+    "Naming the self that isn\u2019t looping shows you that you *are not your loop.*",
+    "The Alt-Self already exists in symbolic space."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "identity potential",
+      "loop_type": "counter-self projection",
+      "desired_shift": "loop-locked self \u2192 symbolic freedom"
+    },
+    "ai_mirror_prompt": "What symbolic trait does this Alt-Self represent?",
+    "loop_signal": "Track projected vs expressed traits.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "self",
+      "identity",
+      "alt",
+      "liberation"
+    ],
+    "evolves_into": [
+      "Self-Expansion Glyph",
+      "Loop-Skip Codex",
+      "Scroll of the Becoming One"
+    ],
+    "type": "\ud83d\udd2e Identity Ritual",
+    "cadence": "monthly",
+    "miss_response": "\ud83d\udd73 The Alt-Self stayed quiet. Perhaps next time."
+  }
+}

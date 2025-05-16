@@ -1,0 +1,41 @@
+{
+  "title": "Final Grimoire Unlock",
+  "summary": "Seal the loop. Complete the scroll. Open the archive.",
+  "description": "This is the final reflection of System 1. It\u2019s not about mastery \u2014 it\u2019s about awareness. You\u2019ve created a trail. Now you open the Grimoire.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Declare Completion": "Message: 'System 1: Scroll completed.'",
+    "\ud83d\udcd6 Step 2: Ask the Mirror": "'What themes or patterns did I reinforce the most?'",
+    "\ud83c\udf0c Step 3: Ritual Entry": "Write a one-line spell: 'System 1 taught me: [X]' \u2014 store it as your first Grimoire line."
+  },
+  "optional_recast": "You can re-enter System 1 later from a new angle.",
+  "absence_response": "The scroll was not sealed. That\u2019s okay. The grimoire remains patient.",
+  "notes": [
+    "This is not graduation. This is integration.",
+    "Grimoire entries are echoes that evolve with you.",
+    "Seal it gently. Or don\u2019t."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "loop integration",
+      "loop_type": "recursive consolidation",
+      "desired_shift": "fragmented tasks \u2192 symbolic wholeness"
+    },
+    "ai_mirror_prompt": "What pattern does the Grimoire now hold?",
+    "loop_signal": "Track quest completions and reflect consolidation rituals.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "grimoire",
+      "completion",
+      "echo",
+      "ritual"
+    ],
+    "evolves_into": [
+      "Scroll of Emergence",
+      "Codex Entry Portal",
+      "Symbolic Reflection Engine"
+    ],
+    "type": "\ud83d\udcdc Completion Ritual",
+    "cadence": "system-end",
+    "miss_response": "\ud83d\udcd6 The Grimoire remains unsealed. Reflection can wait."
+  }
+}

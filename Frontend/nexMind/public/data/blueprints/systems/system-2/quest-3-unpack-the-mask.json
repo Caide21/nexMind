@@ -1,0 +1,41 @@
+{
+  "title": "Unpack the Mask",
+  "summary": "Loops often hide behind helpful faces.",
+  "description": "What does your loop pretend to be protecting you from? What mask does it wear? Today we gently unpack it.",
+  "flow": {
+    "\ud83c\udfad Step 1: Describe the Cover": "Message your AI: 'This loop pretends to help by [protecting / avoiding / fixing]\u2026'",
+    "\ud83e\ude9e Step 2: Ask the Mask": "Prompt: 'What is it actually avoiding or afraid of?'",
+    "\ud83d\udcdc Step 3: Optional Reflection": "What part of you still believes this mask is needed?"
+  },
+  "optional_recast": "Return later and revisit the same loop with fresh eyes.",
+  "absence_response": "No mask surfaced today. That\u2019s okay. Some parts take time.",
+  "notes": [
+    "Loops protect \u2014 even when they limit.",
+    "The mask isn\u2019t a lie. It\u2019s a story that used to work.",
+    "You\u2019re not removing it \u2014 just seeing it for what it is."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "loop disguise awareness",
+      "loop_type": "protective pattern reflection",
+      "desired_shift": "masking \u2192 revealing"
+    },
+    "ai_mirror_prompt": "What is this loop protecting the user from experiencing?",
+    "loop_signal": "Track protective language and justification themes.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "mask",
+      "defense",
+      "protection",
+      "truth"
+    ],
+    "evolves_into": [
+      "Loop Disarmor",
+      "Self-Compassion Glyph",
+      "Scroll of Revealing"
+    ],
+    "type": "\ud83e\ude9e Internal Inquiry",
+    "cadence": "optional-deep",
+    "miss_response": "\ud83c\udfad The mask stayed on today. No pressure to remove it."
+  }
+}

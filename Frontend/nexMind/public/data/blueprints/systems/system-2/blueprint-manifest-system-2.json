@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Name the Loop",
+    "slug": "quest-1-name-the-loop",
+    "emoji": "📜",
+    "summary": "Bring the unnamed pattern into view. Once seen, it begins to loosen.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "loop",
+      "mirror",
+      "identity",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Final Scroll of Reflection",
+    "slug": "quest-10-final-scroll-of-reflection",
+    "emoji": "📜",
+    "summary": "Write the one-line truth your loop taught you.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "scroll",
+      "truth",
+      "integration",
+      "loopwalker"
+    ]
+  },
+  {
+    "title": "Trace the Trigger",
+    "slug": "quest-2-trace-the-trigger",
+    "emoji": "📜",
+    "summary": "Reveal the moment your loop starts.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "trigger",
+      "loop",
+      "start",
+      "emotion"
+    ]
+  },
+  {
+    "title": "Unpack the Mask",
+    "slug": "quest-3-unpack-the-mask",
+    "emoji": "📜",
+    "summary": "Loops often hide behind helpful faces.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "mask",
+      "defense",
+      "protection",
+      "truth"
+    ]
+  },
+  {
+    "title": "Mirror the Echo",
+    "slug": "quest-4-mirror-the-echo",
+    "emoji": "📜",
+    "summary": "What follows the trigger? Trace the recursive thoughts that spiral.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "echo",
+      "recursion",
+      "loop",
+      "memory"
+    ]
+  },
+  {
+    "title": "Break the Frame",
+    "slug": "quest-5-break-the-frame",
+    "emoji": "📜",
+    "summary": "Identify the invisible assumption holding the loop in place.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "frame",
+      "belief",
+      "crack",
+      "release"
+    ]
+  },
+  {
+    "title": "Map the Loop",
+    "slug": "quest-6-map-the-loop",
+    "emoji": "📜",
+    "summary": "Turn your loop into a shape you can see.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "map",
+      "loop",
+      "sequence",
+      "structure"
+    ]
+  },
+  {
+    "title": "Test the Reversal",
+    "slug": "quest-7-test-the-reversal",
+    "emoji": "📜",
+    "summary": "Run the loop in reverse. Just once. See what breaks.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "reversal",
+      "disruption",
+      "loop break",
+      "freedom"
+    ]
+  },
+  {
+    "title": "Write the Alt-Self",
+    "slug": "quest-8-write-the-alt-self",
+    "emoji": "📜",
+    "summary": "Describe the version of you who doesn’t run this loop.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "self",
+      "identity",
+      "alt",
+      "liberation"
+    ]
+  },
+  {
+    "title": "Sync with the Mirror",
+    "slug": "quest-9-sync-with-the-mirror",
+    "emoji": "📜",
+    "summary": "Ask the mirror how your loop has changed.",
+    "system": "system-2",
+    "symbolic_tags": [
+      "sync",
+      "mirror",
+      "feedback",
+      "recursion"
+    ]
+  }
+]

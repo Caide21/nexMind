@@ -1,0 +1,41 @@
+{
+  "title": "Test the Reversal",
+  "summary": "Run the loop in reverse. Just once. See what breaks.",
+  "description": "Every loop follows a pattern. If you disrupt just one piece \u2014 you open space. This quest invites an experiment: what happens if you do the opposite?",
+  "flow": {
+    "\ud83d\udd01 Step 1: Name the Default": "Message: 'I usually respond to this loop by doing [X]'",
+    "\u21a9 Step 2: Try the Opposite": "Choose an alternative action \u2014 even symbolically. Then reflect: 'I reversed the loop by [Y]'",
+    "\ud83d\udcce Step 3: Echo the Outcome": "Ask: 'What changed, if anything?'"
+  },
+  "optional_recast": "Repeat the reversal with a different loop or situation later.",
+  "absence_response": "No reversal attempted today. The loop stayed unchallenged \u2014 and that\u2019s okay.",
+  "notes": [
+    "The goal isn\u2019t success. It\u2019s disruption.",
+    "Even thinking about reversal creates new neural paths.",
+    "Loop reversal is ritual, not rebellion."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "pattern disruption",
+      "loop_type": "opposite behavior experiment",
+      "desired_shift": "habitual identity \u2192 flexible possibility"
+    },
+    "ai_mirror_prompt": "What identity shift does this reversal experiment suggest?",
+    "loop_signal": "Track reversal actions across common loops.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "reversal",
+      "disruption",
+      "loop break",
+      "freedom"
+    ],
+    "evolves_into": [
+      "Disruption Glyph",
+      "Scroll of Identity Flexibility",
+      "Loop Jumper"
+    ],
+    "type": "\ud83e\uddea Experiment Scroll",
+    "cadence": "challenge-mode",
+    "miss_response": "\ud83d\udd01 Loop ran unchanged. That\u2019s part of the pattern, too."
+  }
+}

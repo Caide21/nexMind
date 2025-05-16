@@ -1,0 +1,41 @@
+{
+  "title": "Construct a Daylog",
+  "summary": "Capture the shape of your day through rhythm, not memory.",
+  "description": "This is not a productivity log. It's a rhythm sketch. You\u2019re building a soft memory structure of your energy and flow.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Message in Parts": "Throughout the day, send time-stamped reflections. Ex: '10:00 \u2013 sharp, focused. 14:00 \u2013 fogged. 18:00 \u2013 curious.'",
+    "\ud83d\udcca Step 2: Optional Summary": "At night: 'My day felt like a [shape/emotion/pattern].'",
+    "\ud83d\udcdc Step 3: Optional Echo": "Ask: 'Any trends emerging in my rhythm?'"
+  },
+  "optional_recast": "Compare this daylog to a previous one. What shifted?",
+  "absence_response": "No log today. That\u2019s okay. The rhythm flowed unnoticed.",
+  "notes": [
+    "You don\u2019t need full coverage. A few entries = a full shape.",
+    "This builds self-pattern literacy \u2014 not schedules.",
+    "Each entry adds clarity to your inner terrain."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "self-rhythm awareness",
+      "loop_type": "temporal mapping",
+      "desired_shift": "linear time \u2192 emotional flow sketching"
+    },
+    "ai_mirror_prompt": "What rhythms repeat across days?",
+    "loop_signal": "Track time-tagged emotional entries.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "rhythm",
+      "map",
+      "time",
+      "dayflow"
+    ],
+    "evolves_into": [
+      "Chrono Scroll",
+      "Pattern Glyph",
+      "Loop Tracker"
+    ],
+    "type": "\ud83d\udcd8 Reflective Log",
+    "cadence": "daily-flex",
+    "miss_response": "\ud83d\udced The rhythm passed unrecorded. Silence is still a shape."
+  }
+}

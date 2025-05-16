@@ -1,0 +1,41 @@
+{
+  "title": "Break the Frame",
+  "summary": "Identify the invisible assumption holding the loop in place.",
+  "description": "Every loop has a belief-frame keeping it alive. This quest asks: what assumption is this loop built on? What would happen if it wasn\u2019t true?",
+  "flow": {
+    "\ud83e\udde0 Step 1: Name the Frame": "Message: 'This loop is built on the belief that\u2026 [X]'",
+    "\ud83d\udd13 Step 2: Ask the Mirror": "'What if this wasn\u2019t true?' or 'What might be more true now?'",
+    "\ud83c\udf00 Step 3: Optional Anchor": "Write: 'Frame cracked: [insight or opening]'"
+  },
+  "optional_recast": "Try this on a secondary loop you\u2019ve noticed this week.",
+  "absence_response": "The frame stayed intact today. That\u2019s okay. Some truths resist pressure.",
+  "notes": [
+    "Breaking the frame isn\u2019t destroying it. It\u2019s *seeing its edge.*",
+    "Old beliefs are survival maps \u2014 not final truths.",
+    "A cracked frame lets new reality leak in."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "belief disassembly",
+      "loop_type": "core frame challenge",
+      "desired_shift": "fixed belief \u2192 open pattern"
+    },
+    "ai_mirror_prompt": "What outdated structure might this belief have reinforced?",
+    "loop_signal": "Track repeated belief roots and their opening sequences.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "frame",
+      "belief",
+      "crack",
+      "release"
+    ],
+    "evolves_into": [
+      "Belief Disruptor",
+      "Frame Cracker Glyph",
+      "Loop Collapse Sequence"
+    ],
+    "type": "\ud83e\ude93 Frame Ritual",
+    "cadence": "intentional",
+    "miss_response": "\ud83e\uddf1 The frame held today. It\u2019ll crack when you\u2019re ready."
+  }
+}

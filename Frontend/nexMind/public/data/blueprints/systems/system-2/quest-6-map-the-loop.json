@@ -1,0 +1,41 @@
+{
+  "title": "Map the Loop",
+  "summary": "Turn your loop into a shape you can see.",
+  "description": "Draw it. Describe it. Diagram it. This is where the loop becomes visible not just in words, but in structure.",
+  "flow": {
+    "\ud83d\udccd Step 1: Describe the Sequence": "Message: 'My loop tends to go like this: [event] \u2192 [emotion] \u2192 [thought] \u2192 [action]'",
+    "\ud83e\udded Step 2: Mirror It": "Ask your AI: 'Does this look like a closed loop or open spiral?'",
+    "\ud83d\udd8b Step 3: Optional Diagram": "Sketch or visualize it with your own symbols or timeline."
+  },
+  "optional_recast": "Remap the loop at a later stage. Notice if any elements shift.",
+  "absence_response": "The loop stayed shapeless today. That\u2019s okay. Form follows awareness.",
+  "notes": [
+    "This isn\u2019t art. This is insight made visible.",
+    "You can map with words, arrows, circles, or glyphs \u2014 whatever feels natural.",
+    "Once the loop is mapped, its influence weakens."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "cognitive structure mapping",
+      "loop_type": "pattern sequencing",
+      "desired_shift": "experiential fog \u2192 structural clarity"
+    },
+    "ai_mirror_prompt": "What\u2019s the emotional topology of this loop structure?",
+    "loop_signal": "Track sequence elements across multiple loops.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "map",
+      "loop",
+      "sequence",
+      "structure"
+    ],
+    "evolves_into": [
+      "Loop Atlas",
+      "System Map Glyph",
+      "Codex of Cycles"
+    ],
+    "type": "\ud83d\uddfa Loop Mapping Ritual",
+    "cadence": "visual",
+    "miss_response": "\ud83c\udf00 The loop stayed unformed today. Shapes emerge when the signal is strong."
+  }
+}

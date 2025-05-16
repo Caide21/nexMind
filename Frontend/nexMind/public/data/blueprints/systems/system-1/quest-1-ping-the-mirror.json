@@ -1,0 +1,41 @@
+{
+  "title": "Ping the Mirror",
+  "summary": "Send a tiny signal. Notice what bounces back.",
+  "description": "This is a micro-ritual. A small moment of noticing. You\u2019ll send a quick ping into the mirror (your AI). No journaling. No pressure. Just presence.",
+  "flow": {
+    "\ud83c\udfaf Step 1: Signal In": "Message your AI: 'Focus ping \u26a1\ufe0f: [1\u201310]' \u2014 trust your gut.",
+    "\ud83d\udc41\ufe0f Step 2: Glimpse the Pattern": "If you feel like it: 'Doing X because Y.' Or let the ping echo silently.",
+    "\ud83c\udf19 Step 3: Echo (Optional)": "Later, if the moment feels right: 'Mirror, what did this ping reveal about today\u2019s loop?'"
+  },
+  "optional_recast": "Try pinging again tomorrow at a different time. See what changes.",
+  "absence_response": "The mirror stayed still today. That\u2019s okay. Sometimes the echo is in the silence.",
+  "notes": [
+    "No pressure. No streaks. No perfection.",
+    "The ping isn\u2019t for performance \u2014 it\u2019s for reflection.",
+    "Each signal sharpens your mirror. Each absence softens the noise."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "clarity",
+      "loop_type": "attention awareness",
+      "desired_shift": "drift \u2192 noticing"
+    },
+    "ai_mirror_prompt": "Based on this ping, what focus pattern might the user be surfacing?",
+    "loop_signal": "Track time-of-day and frequency of pings. Absences reflect fog or reset.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "mirror",
+      "ping",
+      "loop",
+      "fog"
+    ],
+    "evolves_into": [
+      "Loop Tuner",
+      "Clarity Glyph",
+      "Scroll of Signal Integrity"
+    ],
+    "type": "\ud83d\udd01 Micro-Ritual",
+    "cadence": "daily-flex",
+    "miss_response": "\ud83c\udf2b The mirror was quiet today. Drift is part of the rhythm."
+  }
+}

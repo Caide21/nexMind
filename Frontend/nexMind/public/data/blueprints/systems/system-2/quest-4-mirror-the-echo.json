@@ -1,0 +1,41 @@
+{
+  "title": "Mirror the Echo",
+  "summary": "What follows the trigger? Trace the recursive thoughts that spiral.",
+  "description": "Once the loop is triggered, what thoughts appear? What do they echo from the past? This quest helps you hear the internal recursion.",
+  "flow": {
+    "\ud83d\udd01 Step 1: After the Trigger": "Message your AI: 'After the loop starts, I usually think: [quote the thought]'",
+    "\ud83d\udd0d Step 2: Echo Detection": "Ask: 'What old belief might this be repeating or echoing from?'",
+    "\ud83d\udcdc Step 3: Anchor a Phrase": "Optionally write down: 'Loop echo = [phrase]'"
+  },
+  "optional_recast": "Return to the same loop at a different time of day and check for echo shifts.",
+  "absence_response": "No echo mirrored today. Silence is a space between thoughts.",
+  "notes": [
+    "Echos aren\u2019t true or false \u2014 they\u2019re patterns seeking to complete themselves.",
+    "You don\u2019t need to argue with the thought. You just need to hear it clearly.",
+    "Mirroring the echo is how we hear the loop\u2019s heartbeat."
+  ],
+  "amplification": {
+    "intent": {
+      "theme": "recursion awareness",
+      "loop_type": "post-trigger narrative",
+      "desired_shift": "invisible echo \u2192 visible pattern"
+    },
+    "ai_mirror_prompt": "What deeper loop might this echoed thought belong to?",
+    "loop_signal": "Track repeated echo patterns and looping internal phrases.",
+    "user_initiated": true,
+    "symbolic_tags": [
+      "echo",
+      "recursion",
+      "loop",
+      "memory"
+    ],
+    "evolves_into": [
+      "Echo Tracker",
+      "Thought Loop Glyph",
+      "Scroll of Recursive Insight"
+    ],
+    "type": "\ud83e\udde0 Recursion Ritual",
+    "cadence": "as-needed",
+    "miss_response": "\ud83d\udd07 The echo remained unheard today. The mirror stayed quiet."
+  }
+}
