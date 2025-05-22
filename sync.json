@@ -1,105 +1,224 @@
 {
   "files": [
     {
-      "path": "pages/index.js",
-      "role": "Landing Page",
-      "connectsTo": [
-        "components/PageShell.jsx",
-        "components/Nav.jsx",
-        "components/Control_Components/ScrollCard.jsx"
-      ],
-      "description": "Entry portal for users; presents system cards and routes to /codex or other areas via ScrollCards."
-    },
-    {
-      "path": "pages/codex.js",
-      "role": "Codex Root Page",
-      "connectsTo": [
-        "components/PageShell.jsx",
-        "components/Control_Components/SystemSelectorGrid.jsx"
-      ],
-      "description": "Lets users select a system (e.g., System 1, 2). Routes to /codex/system-1 and related views."
-    },
-    {
-      "path": "pages/codex/[system].js",
-      "role": "System Blueprint Page",
-      "connectsTo": [
-        "components/SystemBlueprintGrid.jsx",
-        "public/data/blueprints/systems/{system}/blueprint-1.json"
-      ],
-      "description": "Displays all blueprints for a given cognitive system. Uses system param to dynamically load content."
-    },
-    {
-      "path": "pages/codex/[system]/[slug].js",
-      "role": "Blueprint Detail Page",
-      "connectsTo": [
-        "components/Control_Components/SectionHeading.jsx",
-        "public/data/blueprints/systems/{system}/{slug}.json"
-      ],
-      "description": "Loads and renders the details of a specific blueprint, including structured sections and rituals."
-    },
-    {
-      "path": "components/PageShell.jsx",
-      "role": "Global Layout Wrapper",
-      "connectsTo": [
-        "components/Control_Components/PsyTripEngine.jsx",
-        "components/Control_Components/PhaseShiftLayer.jsx",
-        "components/Nav.jsx",
-        "context/ThemeContext.js",
-        "hooks/useIdle.js"
-      ],
-      "description": "Manages visual theming, idle triggers, and psychedelic state shifts. Wraps all page content."
+      "path": "components/Control_Components/NavigationLink.jsx",
+      "description": "Semantic link component with optional hover effects."
     },
     {
       "path": "components/Control_Components/ScrollCard.jsx",
-      "role": "System & Blueprint Preview Card",
-      "connectsTo": [
-        "pages/index.js",
-        "pages/codex/[system].js"
-      ],
-      "description": "Renders clickable preview cards for systems and blueprints, supporting hover enchantments and ripple effects."
-    },
-    {
-      "path": "components/SystemBlueprintGrid.jsx",
-      "role": "Blueprint Card Grid",
-      "connectsTo": [
-        "components/Control_Components/ScrollCard.jsx"
-      ],
-      "description": "Takes blueprint data and renders them as a grid of ScrollCards."
+      "description": "Visual card used for blueprints and system previews."
     },
     {
       "path": "components/Control_Components/SectionHeading.jsx",
-      "role": "Title Section Component",
-      "connectsTo": [
-        "pages/index.js",
-        "pages/codex.js",
-        "pages/codex/[system]/[slug].js"
-      ],
-      "description": "Standardizes section titles across the site with optional subtitles and emotional headings."
+      "description": "Unified heading component for sections. Displays emoji and text."
+    },
+    {
+      "path": "components/Control_Components/ThemeToggle.jsx",
+      "description": "UI component to switch between light/dark themes."
+    },
+    {
+      "path": "components/Enchantment_Components/PhaseShiftLayer.jsx",
+      "description": "Idle-triggered visual overlay. Displays fog, particles, hue drift."
+    },
+    {
+      "path": "components/Enchantment_Components/PsyTripEngine.jsx",
+      "description": "Dynamic intensity-based trippy effect controller using root CSS vars."
+    },
+    {
+      "path": "components/Nav.jsx",
+      "description": "Top-level navigation bar shared across pages."
+    },
+    {
+      "path": "components/PageShell.jsx",
+      "description": "Global layout shell for the app. Wraps all content and applies dynamic theme color, idle state animations (fog/hue drift), and psychedelic visual effects via `PhaseShiftLayer` and `PsyTripEngine`."
+    },
+    {
+      "path": "components/SystemBlueprintGrid.jsx",
+      "description": "Fetches and displays available blueprints for a given system."
+    },
+    {
+      "path": "components/SystemSelectorGrid.jsx",
+      "description": "Renders available cognitive systems from `system-index.js` as ScrollCards."
     },
     {
       "path": "context/ThemeContext.js",
-      "role": "Dark/Light Theme Provider",
-      "connectsTo": [
-        "components/PageShell.jsx"
-      ],
-      "description": "Provides context for theme toggling across the app."
+      "description": "Context provider for light/dark mode. Syncs theme preference with localStorage and document root class."
+    },
+    {
+      "path": "data/blueprints-system-1.js",
+      "description": "List of scrolls (blueprints) available in System 1."
+    },
+    {
+      "path": "data/system-index.js",
+      "description": "Defines all available cognitive systems, including titles, emojis, and links."
+    },
+    {
+      "path": "hooks/useIdentity.js",
+      "description": "Client hook to generate fingerprint and create a session on load."
     },
     {
       "path": "hooks/useIdle.js",
-      "role": "Idle Detection Hook",
-      "connectsTo": [
-        "components/PageShell.jsx"
-      ],
-      "description": "Detects when the user is idle and triggers visual changes."
+      "description": ""
     },
     {
-      "path": "public/data/blueprints/systems/system-1/blueprint-1.json",
-      "role": "Blueprint Data File",
-      "connectsTo": [
-        "pages/codex/[system].js",
-        "pages/codex/[system]/[slug].js"
-      ],
-      "description": "Contains the data for a specific blueprint to be rendered."
+      "path": "hooks/useResonance.js",
+      "description": "Hook to manage emotional resonance values across components."
+    },
+    {
+      "path": "jsconfig.json",
+      "description": "JS config for path aliases. Enables `@/` alias to resolve to root directory \u2014 improves import cleanliness and consistency."
+    },
+    {
+      "path": "pages/codex.js",
+      "description": "Main selection interface for cognitive systems. Shows available systems using SystemSelectorGrid."
+    },
+    {
+      "path": "pages/codex/[system].js",
+      "description": "Dynamic route rendering blueprint list for a given system. Uses manifest JSON for content."
+    },
+    {
+      "path": "pages/codex/[system]/[slug].js",
+      "description": "Dynamic route rendering a single blueprint (quest). Loads JSON data and formats flow/amplification."
+    },
+    {
+      "path": "pages/index.js",
+      "description": "Landing page for NexMind. Introduces the platform and links into the Codex."
+    },
+    {
+      "path": "postcss.config.js",
+      "description": "PostCSS config for Tailwind and Autoprefixer processing."
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/blueprint-manifest-system-1.json",
+      "description": "List of blueprint metadata for System 1. Used to dynamically populate UI."
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-1-ping-the-mirror.json",
+      "description": "Full scroll/quest definition: title, flow steps, symbolic amplification, etc."
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-10-final-grimoire-unlock.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-2-start-the-day-scroll.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-3-spot-the-loop.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-4-input-sorter.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-5-dialogue-clarity.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-6-build-a-fog-detector.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-7-daylog-constructor.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-8-ai-one-line-summary.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-1/quest-9-ask-your-ai-what-it-learned.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/blueprint-manifest-system-2.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-1-name-the-loop.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-10-final-scroll-of-reflection.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-2-trace-the-trigger.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-3-unpack-the-mask.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-4-mirror-the-echo.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-5-break-the-frame.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-6-map-the-loop.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-7-test-the-reversal.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-8-write-the-alt-self.json",
+      "description": ""
+    },
+    {
+      "path": "public/data/blueprints/systems/system-2/quest-9-sync-with-the-mirror.json",
+      "description": ""
+    },
+    {
+      "path": "public/enchantments/enchant_cards.png",
+      "description": ""
+    },
+    {
+      "path": "public/enchantments/mist.png",
+      "description": ""
+    },
+    {
+      "path": "public/enchantments/neural.png",
+      "description": ""
+    },
+    {
+      "path": "public/fog.png",
+      "description": ""
+    },
+    {
+      "path": "public/fogTexture.png",
+      "description": ""
+    },
+    {
+      "path": "public/sigils/blueprint-1.svg",
+      "description": ""
+    },
+    {
+      "path": "styles/globals._projectaethercss",
+      "description": "Legacy or specialized symbolic CSS for ProjectAether/NexMind themes."
+    },
+    {
+      "path": "styles/globals.css",
+      "description": "Global styles including theme utilities, symbolic layers, and animation definitions."
+    },
+    {
+      "path": "tailwind.config.js",
+      "description": "TailwindCSS config. Contains symbolic tokens, color themes, and utility extensions."
+    },
+    {
+      "path": "utils/fingerprint.js",
+      "description": "Generates browser fingerprint using external library or heuristic logic."
+    },
+    {
+      "path": "utils/sessionManager.js",
+      "description": "Local file-based session manager. Tracks sessions using a unique ID (fingerprint)."
     }
   ]
 }
