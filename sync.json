@@ -219,6 +219,26 @@
     {
       "path": "utils/sessionManager.js",
       "description": "Local file-based session manager. Tracks sessions using a unique ID (fingerprint)."
+    },
+    {
+      "path": "components/ResonanceInput.jsx",
+      "description": "Captures emotional input and prepares symbolic feedback vectors to influence system state or prompt generation."
+    },
+    {
+      "path": "components/SendReflection.js",
+      "description": "Handles sending user reflection data (text, resonance state) to backend or local API."
+    },
+    {
+      "path": "pages/_app.js",
+      "description": "Root entry point for all pages. Wraps content in ThemeProvider and PageShell for theme + visual logic."
+    },
+    {
+      "path": "pages/_document.js",
+      "description": "Custom HTML document. Loads Google Fonts and applies initial page structure. Essential for correct theming."
+    },
+    {
+      "path": "pages/api/session/init.js",
+      "description": "API endpoint that creates or restores a session using browser fingerprint. Used by useIdentity hook."
     }
   ]
 }
